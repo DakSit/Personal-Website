@@ -1,8 +1,7 @@
-html{
-    border: solid;
-    border-width: thick;
+body {
+    border: 8px solid #000;
+    margin: 0;
 }
-
 
 .personal-img {
   margin-top: 6em;
