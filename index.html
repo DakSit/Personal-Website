@@ -6,15 +6,31 @@
   <title>Dakota Sitton</title>
   <link rel="stylesheet" href="css/PersonalWebsite.css">
   <link href='https://fonts.googleapis.com/css?family=Lato:wght@400;700;900' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 <body>
-  <ul>
-  <li><a href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li style="float:right"><a class="active" href="#about">About</a></li>
-</ul>
-<img class ="personal-img" src="Images/facecropped.png" width="460" height="345">
+  <header>
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Home</a>
+      <a href="#news">About Me</a>
+      <a href="#contact">Projects</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+  </header>
+<img class ="personal-img" src="Images/facecropped.png">
 <h1>Hi, I'm Dakota.</h1>
-<h2>I'm a Junior Front-End Developer with a passion for telling stories.<h2>
+<h2>I'm a Junior Front-End Developer and I want to help you create beauty.<h2>
 </body>
